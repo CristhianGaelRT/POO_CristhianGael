@@ -1,6 +1,15 @@
 package edu.gael_rivera.reto8.process;
 
+/**
+ * Clase concreta que implementa la multiplicación como una operación aritmética.
+ */
 public class Multiplicacion extends Suma {
+    /**
+     * Implementación del método calcular para la multiplicación
+     * @param num1 Representa el primer valor de un numero entero
+     * @param num2 Representa el segundo valor de un numero entero
+     * @return Devuelve el retultado de la operacion de la multiplicacion
+     */
     @Override
     public int calcular(int num1, int num2){
         int multiplicacion = 0;
