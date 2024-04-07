@@ -36,7 +36,7 @@ public class CLI {
         System.out.print(language.getIngrese_Usuario());
         String usuario = scanner.nextLine();
 
-        System.out.print(language.getIngrese_Contrseña());
+        System.out.print(language.getIngrese_Contrsena());
         String contrasena = scanner.nextLine();
 
         // Simular generación aleatoria de consumo del usuario

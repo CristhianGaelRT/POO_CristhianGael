@@ -7,7 +7,7 @@ public abstract class Idioma {
     // Métodos abstractos para obtener los mensajes en el idioma específico
     public abstract String getBienvenida(); // Mensaje de bienvenida
     public abstract String getIngrese_Usuario(); // Mensaje para ingresar el usuario
-    public abstract String getIngrese_Contrseña(); // Mensaje para ingresar la contraseña
+    public abstract String getIngrese_Contrsena(); // Mensaje para ingresar la contraseña
     public abstract String getMostrar_reporteConsumo(); // Mensaje para mostrar el reporte de consumo
     public abstract String getMostar_reporteConsumo_Nombre(); // Mensaje para mostrar el nombre del artículo en el reporte de consumo
     public abstract String getMostrar_reporteConsumo_Tipo(); // Mensaje para mostrar el tipo del artículo en el reporte de consumo

@@ -23,7 +23,7 @@ public class Esp extends Idioma {
 
     // Sobrescribe el método para obtener el mensaje de ingreso de contraseña en español
     @Override
-    public String getIngrese_Contrseña() {
+    public String getIngrese_Contrsena() {
         return "Contraseña";
     }
 

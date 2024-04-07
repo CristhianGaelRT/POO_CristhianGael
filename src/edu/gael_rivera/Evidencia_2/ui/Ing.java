@@ -23,7 +23,7 @@ public class Ing extends Idioma {
 
     // Sobrescribe el método para obtener el mensaje de ingreso de contraseña en inglés
     @Override
-    public String getIngrese_Contrseña() {
+    public String getIngrese_Contrsena() {
         return "Password?";
     }
 
