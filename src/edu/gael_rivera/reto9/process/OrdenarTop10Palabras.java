@@ -6,19 +6,9 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-
-
-/**
- *  Clase que se encarga de ordenar las palabras
- *  contadas por frecuencia y seleccionar las 10 palabras más comunes
- */
+// Clase que se encarga de ordenar las palabras contadas por frecuencia y seleccionar las 10 palabras más comunes
 public class OrdenarTop10Palabras {
-    /**
-     * Método estático que ordena las palabras contadas por frecuencia
-     * y selecciona las 10 palabras más comunes
-     * @param palabrasContadas Cuenta las 10 palabras mas comunes que tiene el libro
-     * @return 10 palabras mas comunes
-     */
+    // Método estático que ordena las palabras contadas por frecuencia y selecciona las 10 palabras más comunes
     public static String[] ordenar(String[] palabrasContadas) {
         // Se convierte el arreglo de palabras contadas en un flujo de palabras
         Stream<String> stream = Stream.of(palabrasContadas);

@@ -11,7 +11,7 @@ public class DepurarTexto {
     /**
      * Método estático que depura un texto dado
      * @param texto Es el texto del libro
-     * @return
+     * @return depurar texto
      */
     public static String depurar(String texto) {
         // Se convierte a minusculas
