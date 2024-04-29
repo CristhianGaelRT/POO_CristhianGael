@@ -1,6 +1,6 @@
-package edu.gael_rivera.reto11;
+package edu.gael_rivera.reto12;
 
-import edu.gael_rivera.reto11.ui.CLI;
+import edu.gael_rivera.reto12.ui.CLI;
 
 public class Main {
     public static void main(String[] args) {
