@@ -1,7 +1,7 @@
 package edu.gael_rivera.reto12.ui;
 
-import edu.gael_rivera.reto11.process.*;
-import edu.gael_rivera.reto9.process.OrdenarTop10Palabras;
+import edu.gael_rivera.reto12.process.*;
+import edu.gael_rivera.reto12.process.Top10;
 
 import java.util.Map;
 import java.util.Scanner;
@@ -75,7 +75,7 @@ public class CLI {
         String cleanedText = DepurarTexto.depurar(text);
         String[] words = SepararTexto.separar(cleanedText);
         String[] countedWords = edu.gael_rivera.reto9.process.ContarPalabraTexto.contar(words);
-        String[] top10Words = OrdenarTop10Palabras.ordenar(countedWords);
+        String[] top10Words = Top10.ordenar(countedWords);
 
         for (String word : top10Words) {
             System.out.println(word);
